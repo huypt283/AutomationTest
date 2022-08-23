@@ -25,6 +25,7 @@ REFERENCES [dbo].[BankRobbery_Team] ([id])
 GO
 
 #######################################
+
 CREATE TABLE [dbo].[BankRobbery_Plan](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[location] [int] NULL,
@@ -48,6 +49,7 @@ REFERENCES [dbo].[BankRobbery_Team] ([id])
 GO
 
 #######################################
+
 CREATE TABLE [dbo].[BankRobbery_RobLocation](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[country] [nvarchar](50) NULL,
@@ -61,6 +63,7 @@ PRIMARY KEY CLUSTERED
 GO
 
 #######################################
+
 CREATE TABLE [dbo].[BankRobbery_Role](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[role] [nvarchar](50) NULL,
@@ -73,6 +76,7 @@ PRIMARY KEY CLUSTERED
 GO
 
 #######################################
+
 CREATE TABLE [dbo].[BankRobbery_Team](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[team_name] [nvarchar](50) NULL,
