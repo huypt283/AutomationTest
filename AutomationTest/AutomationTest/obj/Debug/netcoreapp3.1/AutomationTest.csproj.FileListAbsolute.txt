@@ -1,0 +1,17 @@
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\bin\Debug\netcoreapp3.1\AutomationTest.exe
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\bin\Debug\netcoreapp3.1\AutomationTest.deps.json
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\bin\Debug\netcoreapp3.1\AutomationTest.runtimeconfig.json
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\bin\Debug\netcoreapp3.1\AutomationTest.runtimeconfig.dev.json
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\bin\Debug\netcoreapp3.1\AutomationTest.dll
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\bin\Debug\netcoreapp3.1\AutomationTest.pdb
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\bin\Debug\netcoreapp3.1\SqlKata.dll
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.csproj.AssemblyReference.cache
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.AssemblyInfoInputs.cache
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.AssemblyInfo.cs
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.csproj.CoreCompileInputs.cache
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.csproj.CopyComplete
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.dll
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.pdb
+C:\Users\LongTQ2\Desktop\Auto\AutomationTest\AutomationTest\AutomationTest\obj\Debug\netcoreapp3.1\AutomationTest.genruntimeconfig.cache
