@@ -23,6 +23,7 @@ GO
 ALTER TABLE [dbo].[BankRobbery_Person]  WITH CHECK ADD FOREIGN KEY([team])
 REFERENCES [dbo].[BankRobbery_Team] ([id])
 GO
+
 #######################################
 CREATE TABLE [dbo].[BankRobbery_Plan](
 	[id] [int] IDENTITY(1,1) NOT NULL,
@@ -45,6 +46,7 @@ GO
 ALTER TABLE [dbo].[BankRobbery_Plan]  WITH CHECK ADD FOREIGN KEY([team])
 REFERENCES [dbo].[BankRobbery_Team] ([id])
 GO
+
 #######################################
 CREATE TABLE [dbo].[BankRobbery_RobLocation](
 	[id] [int] IDENTITY(1,1) NOT NULL,
@@ -57,6 +59,7 @@ PRIMARY KEY CLUSTERED
 ) ON [PRIMARY]
 
 GO
+
 #######################################
 CREATE TABLE [dbo].[BankRobbery_Role](
 	[id] [int] IDENTITY(1,1) NOT NULL,
@@ -68,6 +71,7 @@ PRIMARY KEY CLUSTERED
 ) ON [PRIMARY]
 
 GO
+
 #######################################
 CREATE TABLE [dbo].[BankRobbery_Team](
 	[id] [int] IDENTITY(1,1) NOT NULL,
