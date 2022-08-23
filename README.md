@@ -2,6 +2,7 @@
 
 #SQL Script
 #######################################
+
 CREATE TABLE [dbo].[BankRobbery_Person](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[name] [nvarchar](50) NULL,
