@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <Authors>Alessandro Cagliostro Goncalves Neves</Authors>
+    <Description>A Dapper-based multi-target .NET Standard library (.NET Standard 2.0/2.1) that can be used in projects with any .NET implementation, like .NET Framework, .NET Core, Mono, Xamarin, etc., for multi-database access (MS SQL Server, Oracle, PostgreSQL, MySQL, Firebird, SQLite). Usage is the same as Dapper (see https://github.com/StackExchange/Dapper for examples), plus you can select and connect to different databases in a single class, and use Transactions (with a default or user-defined isolation level) with the UnitOfWork pattern directly from the same lib.</Description>
+    <Copyright>Alessandro Cagliostro Goncalves Neves, 2020</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>multidbhelper-icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/alecgn/multi-db-helper</RepositoryUrl>
+    <PackageTags>dapper multi database db sql mssql sqlserver mssqlserver firebird firebirdsql mysql postgre postgresql npg npgsql oracle sqlite transaction transactions unitofwork unit-of-work uow isolation level</PackageTags>
+    <AssemblyVersion>2.1.1</AssemblyVersion>
+    <FileVersion>2.1.1</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/alecgn/multi-db-helper</PackageProjectUrl>
+    <Version>2.1.1</Version>
+    <PackageReleaseNotes>- Updated description and tags.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.2" />
+    <PackageReference Include="MySql.Data" Version="8.0.24" />
+    <PackageReference Include="Npgsql" Version="5.0.4" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.101" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.113.7" />
+    <None Include="Icon\multidbhelper-icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+    <PackageReference Include="Oracle.ManagedDataAccess.Core">
+      <Version>3.21.1</Version>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

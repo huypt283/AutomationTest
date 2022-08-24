@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MultiDBHelper</id>
+    <version>2.1.1</version>
+    <authors>Alessandro Cagliostro Goncalves Neves</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>multidbhelper-icon.png</icon>
+    <projectUrl>https://github.com/alecgn/multi-db-helper</projectUrl>
+    <description>A Dapper-based multi-target .NET Standard library (.NET Standard 2.0/2.1) that can be used in projects with any .NET implementation, like .NET Framework, .NET Core, Mono, Xamarin, etc., for multi-database access (MS SQL Server, Oracle, PostgreSQL, MySQL, Firebird, SQLite). Usage is the same as Dapper (see https://github.com/StackExchange/Dapper for examples), plus you can select and connect to different databases in a single class, and use Transactions (with a default or user-defined isolation level) with the UnitOfWork pattern directly from the same lib.</description>
+    <releaseNotes>- Updated description and tags.</releaseNotes>
+    <copyright>Alessandro Cagliostro Goncalves Neves, 2020</copyright>
+    <tags>dapper multi database db sql mssql sqlserver mssqlserver firebird firebirdsql mysql postgre postgresql npg npgsql oracle sqlite transaction transactions unitofwork unit-of-work uow isolation level</tags>
+    <repository url="https://github.com/alecgn/multi-db-helper" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Dapper" version="2.0.78" exclude="Build,Analyzers" />
+        <dependency id="FirebirdSql.Data.FirebirdClient" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="2.1.2" exclude="Build,Analyzers" />
+        <dependency id="MySql.Data" version="8.0.24" exclude="Build,Analyzers" />
+        <dependency id="Npgsql" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="Oracle.ManagedDataAccess.Core" version="2.19.101" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SQLite.Core" version="1.0.113.7" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Dapper" version="2.0.78" exclude="Build,Analyzers" />
+        <dependency id="FirebirdSql.Data.FirebirdClient" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="2.1.2" exclude="Build,Analyzers" />
+        <dependency id="MySql.Data" version="8.0.24" exclude="Build,Analyzers" />
+        <dependency id="Npgsql" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="Oracle.ManagedDataAccess.Core" version="3.21.1" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SQLite.Core" version="1.0.113.7" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\bin\Debug\netstandard2.0\MultiDBHelper.dll" target="lib\netstandard2.0\MultiDBHelper.dll" />
+    <file src="C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\bin\Debug\netstandard2.1\MultiDBHelper.dll" target="lib\netstandard2.1\MultiDBHelper.dll" />
+    <file src="C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\Icon\multidbhelper-icon.png" target="\multidbhelper-icon.png" />
+  </files>
+</package>

@@ -1,0 +1,10 @@
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\bin\Debug\netstandard2.1\MultiDBHelper.deps.json
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\bin\Debug\netstandard2.1\MultiDBHelper.dll
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\bin\Debug\netstandard2.1\MultiDBHelper.pdb
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\obj\Debug\netstandard2.1\MultiDBHelper.csproj.AssemblyReference.cache
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\obj\Debug\netstandard2.1\MultiDBHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\obj\Debug\netstandard2.1\MultiDBHelper.AssemblyInfoInputs.cache
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\obj\Debug\netstandard2.1\MultiDBHelper.AssemblyInfo.cs
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\obj\Debug\netstandard2.1\MultiDBHelper.csproj.CoreCompileInputs.cache
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\obj\Debug\netstandard2.1\MultiDBHelper.dll
+C:\Users\LongTQ2\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\obj\Debug\netstandard2.1\MultiDBHelper.pdb
