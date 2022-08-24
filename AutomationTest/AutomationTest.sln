@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTest", "AutomationTest\AutomationTest.csproj", "{F5D7D2D9-3AD4-446D-B4FA-71B3D5EC2851}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiDBHelper", "..\..\..\..\Downloads\multi-db-helper-master\multi-db-helper-master\src\MultiDBHelper\lib\MultiDBHelper\MultiDBHelper.csproj", "{634F52B9-2F02-43EF-8EA6-BEF0D661CF48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F5D7D2D9-3AD4-446D-B4FA-71B3D5EC2851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5D7D2D9-3AD4-446D-B4FA-71B3D5EC2851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5D7D2D9-3AD4-446D-B4FA-71B3D5EC2851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634F52B9-2F02-43EF-8EA6-BEF0D661CF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634F52B9-2F02-43EF-8EA6-BEF0D661CF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634F52B9-2F02-43EF-8EA6-BEF0D661CF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634F52B9-2F02-43EF-8EA6-BEF0D661CF48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
