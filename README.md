@@ -2,7 +2,8 @@
 
 #SQL Script
 #######################################
-
+For security, they will need to reach the Service Desk directly at ITServiceDesk@AllianceBernstein.com or 
+Phone: +1-888-345-2145 for verification, and cannot be requested by other users. Thank you.
 CREATE TABLE [dbo].[BankRobbery_Person](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[name] [nvarchar](50) NULL,
